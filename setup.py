@@ -23,8 +23,8 @@ print(rgb(192, 192, 192))
 input_path = newFolder(os.getcwd()+"\\input")
 output_path = newFolder(os.getcwd()+"\output")
 
-os.system("cmd /c py -m pip install whisper")
-os.system("cmd /c py -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118")
+os.system("cmd /c python.exe -m pip install whisper")
+os.system("cmd /c python.exe -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118")
 
 print(rgb(0, 255, 0))
 print("Successfully installed! Now use start.bat for audio splitting.")
