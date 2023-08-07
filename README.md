@@ -12,14 +12,12 @@ You may need to add either of these to your PATH Environmental Variables
 3. Run `start.bat` and wait
 
 ## Bugs
-- PyTorch cannot correctly find gpu index if run through python file directly, unknown why
+- PyTorch cannot correctly find gpu index if run through python file directly, unknown why (hense batch file)
 
 ## Future Updates
 These are in no specific order and may be completed at different times... or never
-- Add ***diarization*** to split voices into different audio input (composite into one or just use as separate files)
-- Add logging feature, so troubleshooting should be easier
-- Add compatability to detect AMD & Intel GPUs (currently only NVIDIA bc it is using the ***pynvml*** library to find GPUs and get info)
-- Display specific cpu name instead of "*cpu*" replacement name
-- Add support for Linux users
+- Add ***diarization*** (using [NVIDIA NeMo](https://github.com/NVIDIA/NeMo/tree/main/examples/speaker_tasks/diarization)
+- Add error handling
+- Add logging
 
 ## Changelog
