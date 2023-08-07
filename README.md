@@ -4,8 +4,8 @@ A quick Python script to detect speach using Whisper, parse it by sentance, and 
 The only requirements are related to installs on your computer, any required python libraries for the script will be installed automatically using setup.py.
 - [Python](https://www.python.org/downloads/release/python-31011/) (only 3.10.11 was tested, others may work)
 - [FFmpeg](https://ffmpeg.org/download.html)
-
-You may need to add either of these to your PATH Environmental Variables (Windows)
+***This script is meant for windows only***
+You may need to add either of these to your PATH Environmental Variables
 ## Use
 1. Run `setup.py`, and wait until it is done
 2. Put your audio file(s) into the input folder
@@ -20,3 +20,6 @@ These are in no specific order and may be completed at different times... or nev
 - Add logging feature, so troubleshooting should be easier
 - Add compatability to detect AMD & Intel GPUs (currently only NVIDIA bc it is using the ***pynvml*** library to find GPUs and get info)
 - Display specific cpu name instead of "*cpu*" replacement name
+- Add support for Linux users
+
+## Changelog
